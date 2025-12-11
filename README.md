@@ -26,7 +26,7 @@ This project demonstrates how to use Terraform with multiple AWS CLI profiles to
 
 ## Goal of This Project
 
-To provide a simple and practical example for beginners who want to learn:
+To provide a simple and practical example to learn and practise:
 
 - How Terraform interacts with AWS using different profiles
 - How to query account and VPC information
