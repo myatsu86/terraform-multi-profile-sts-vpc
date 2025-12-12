@@ -34,3 +34,12 @@ output "sts-prod-admin-caller_arn" {
 output "sts-prod-admin-caller_user" {
   value = data.aws_caller_identity.prod-admin.user_id
 }
+
+########### Outpuf for VPC section ################
+output "singapore_vpc"{
+    value = data.aws_vpc.master-admin-default_singapore_vpc
+}
+
+output "japan_vpc"{
+    value = data.aws_vpc.master-admin-default_japan_vpc
+}
