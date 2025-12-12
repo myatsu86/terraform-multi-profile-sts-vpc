@@ -7,7 +7,7 @@ This project demonstrates how to use Terraform with multiple AWS CLI profiles to
 - Setting up three separate AWS CLI profiles in `~/.aws/config` and `~/.aws/credentials`.
 - Using Terraform to call AWS APIs with different profiles.
   - The project uses the following AWS CLI profiles:
-    - aws-master-adm
+    - aws-master-admin
     - aws-dev-admin
     - aws-prod-admin
   - Each profile will authenticate separately when Terraform runs.
